@@ -1,7 +1,7 @@
 let firstNum = prompt('Enter First Number')
 let secondNum = prompt('Enter Second Number')
 
-const resultAddition = firstNum + secondNum
+const resultAddition = parseInt(firstNum) + parseInt(secondNum)
 const resultSubstraction = firstNum - secondNum
 const resultMultiplication = firstNum * secondNum
 const resultDivison = firstNum / secondNum
